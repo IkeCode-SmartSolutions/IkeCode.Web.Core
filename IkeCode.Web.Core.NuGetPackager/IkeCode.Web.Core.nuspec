@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IkeCode.Web.Core</id>
+    <version>1.0.0.1</version>
+    <title>IkeCode.Web.Core</title>
+    <authors>Leandro Barral</authors>
+    <owners>IkeCode</owners>
+    <description>
+      Projeto com classes utilitarias para projeto WEB
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      Projeto com classes utilitarias para projeto WEB
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/IkeCode.Web.Core</projectUrl>
+    <iconUrl>https://avatars2.githubusercontent.com/u/16226306</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright IkeCode 2016</copyright>
+    <dependencies>
+        <group targetFramework="net40">
+          <dependency id="Antlr" version="3.5.0.2" />
+          <dependency id="IkeCode.Core" version="1.0.0" />
+          <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+          <dependency id="Microsoft.AspNet.Razor" version="3.2.3" />
+          <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.3" />
+          <dependency id="Microsoft.AspNet.WebPages" version="3.2.3" />
+          <dependency id="Newtonsoft.Json" version="8.0.3" />
+          <dependency id="WebGrease" version="1.6.0" />
+        </group>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>
