@@ -33,7 +33,7 @@
         </group>
     </dependencies>
     <references></references>
-    <tags></tags>
+    <tags>ikecode, web, util, tools</tags>
   </metadata>
   <files>
     <file src="lib\" target="lib" />
