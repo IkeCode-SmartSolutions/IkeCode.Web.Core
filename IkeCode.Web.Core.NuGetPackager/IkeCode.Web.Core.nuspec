@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>IkeCode.Web.Core</id>
-    <version>1.0.0.1</version>
+    <version>1.0.0.2</version>
     <title>IkeCode.Web.Core</title>
     <authors>Leandro Barral</authors>
     <owners>IkeCode</owners>
@@ -21,16 +21,20 @@
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <copyright>Copyright IkeCode 2016</copyright>
     <dependencies>
-        <group targetFramework="net40">
-          <dependency id="Antlr" version="3.5.0.2" />
-          <dependency id="IkeCode.Core" version="1.0.0" />
-          <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
-          <dependency id="Microsoft.AspNet.Razor" version="3.2.3" />
-          <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.3" />
-          <dependency id="Microsoft.AspNet.WebPages" version="3.2.3" />
-          <dependency id="Newtonsoft.Json" version="8.0.3" />
-          <dependency id="WebGrease" version="1.6.0" />
-        </group>
+      <group targetFramework="net40">
+        <dependency id="Antlr" version="3.5.0.2" />
+        <dependency id="Castle.Core" version="3.3.3" />
+        <dependency id="Castle.Windsor" version="3.3.0" />
+        <dependency id="IkeCode.Core" version="1.0.0" />
+        <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+        <dependency id="Microsoft.AspNet.Razor" version="3.2.3" />
+        <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.3" />
+        <dependency id="Microsoft.AspNet.WebPages" version="3.2.3" />
+        <dependency id="Microsoft.Net.Compilers" version="1.1.1" />
+        <dependency id="Microsoft.Web.Infrastructure" version="1.0.0.0" />
+        <dependency id="Newtonsoft.Json" version="8.0.3" />
+        <dependency id="WebGrease" version="1.6.0" />
+      </group>
     </dependencies>
     <references></references>
     <tags>ikecode, web, util, tools</tags>
