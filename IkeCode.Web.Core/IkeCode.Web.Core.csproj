@@ -49,6 +49,8 @@
     <Compile Include="Model\Interfaces\IIkeCodeRadioButtonModel .cs" />
     <Compile Include="Model\Interfaces\IIkeCodeCheckBoxModel.cs" />
     <Compile Include="Mvc\Helpers.cs" />
+    <Compile Include="Mvc\IkeCodeStyleBuilder.cs" />
+    <Compile Include="Mvc\IkeCodeStyleBundle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
